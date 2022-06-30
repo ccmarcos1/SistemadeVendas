@@ -28,6 +28,7 @@ namespace SistemaDeVendas
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Ola mundo!");
+                await context.Response.WriteAsync("Ola mundo!");
             });
         }
     }
